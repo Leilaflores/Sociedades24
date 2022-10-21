@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-export class Srl extends Component {
-  render() {
+function Srl () {
     return (
       <div id="SRL" class="mt-4">
         <div class="card text-center">
@@ -25,7 +24,6 @@ export class Srl extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Srl;

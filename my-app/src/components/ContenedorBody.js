@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Carousel from "./Carousel";
 import DomLegal from "./DomLegal";
 import Formulario from "./Formulario";
@@ -7,8 +7,7 @@ import Sa from "./Sa";
 import Sas from "./Sas";
 import Srl from "./Srl";
 
-export class ContenedorBody extends Component {
-  render() {
+function ContenedorBody () {
     return (
       <div>
         <Carousel />
@@ -46,7 +45,6 @@ export class ContenedorBody extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default ContenedorBody;

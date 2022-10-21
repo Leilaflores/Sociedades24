@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class DomLegal extends Component {
-  render() {
+function DomLegal () {
     return (
       <div id="DomLegal" class="mt-4">
         <div class="card text-center">
@@ -25,7 +24,6 @@ export class DomLegal extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default DomLegal;

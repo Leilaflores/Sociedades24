@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class Sa extends Component {
-  render() {
+function Sa () {
     return (
       <div id="SA" class="mt-4">
         <div class="card text-center">
@@ -25,7 +24,6 @@ export class Sa extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Sa;

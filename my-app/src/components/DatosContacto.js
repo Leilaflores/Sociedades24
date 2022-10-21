@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export class DatosContacto extends Component {
-  render() {
+function  DatosContacto () {
     return (
       <div>
         <div class="container pb-2">
@@ -25,6 +24,5 @@ export class DatosContacto extends Component {
       </div>
     );
   }
-}
 
 export default DatosContacto;

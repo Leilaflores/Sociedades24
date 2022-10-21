@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
-export class Gestion extends Component {
-  render() {
+function Gestion () {
     return (
       <div id="Gestion" class="mt-4">
         <div class="card text-center">
@@ -25,7 +24,6 @@ export class Gestion extends Component {
         </div>
       </div>
     );
-  }
 }
 
 export default Gestion;

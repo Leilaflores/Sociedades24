@@ -1,8 +1,7 @@
 import React from 'react';
 import LogoSociedades24 from "../Asset/LogoSociedades24.png";
 
-export const NavBar = () => {
-
+function NavBar () {
   return (
   <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
@@ -35,3 +34,5 @@ export const NavBar = () => {
 </nav>
 )
 }
+
+export default NavBar;
