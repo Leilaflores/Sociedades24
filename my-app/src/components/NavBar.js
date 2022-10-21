@@ -14,23 +14,20 @@ export const NavBar = () => {
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Servicios
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Constitución de SRL</a></li>
-            <li><a class="dropdown-item" href="#">Constitución de SAS</a></li>
-            <li><a class="dropdown-item" href="#">Constitución de SA</a></li>
-            <li><a class="dropdown-item" href="#">Servicio de domicilio legal y Fiscal</a></li>
-            <li><a class="dropdown-item" href="#">Gestión de tramites en IGJ</a></li>
+            <li><a class="dropdown-item" href="#SRL">Constitución de SRL</a></li>
+            <li><a class="dropdown-item" href="#SAS">Constitución de SAS</a></li>
+            <li><a class="dropdown-item" href="#SA">Constitución de SA</a></li>
+            <li><a class="dropdown-item" href="#DomLegal">Servicio de domicilio legal y Fiscal</a></li>
+            <li><a class="dropdown-item" href="#Gestion">Gestión de tramites en IGJ</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Contacto</a>
+          <a class="nav-link" aria-current="page" href="#Contacto">Contacto</a>
         </li>
       </ul>
     </div>
