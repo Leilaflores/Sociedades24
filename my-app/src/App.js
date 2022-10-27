@@ -14,7 +14,6 @@ function App() {
       </div>
       <ContenedorBody/>
       <div className='card-footer bg-light pt-3'>
-        <DatosContacto/>
         <Footer/>
       </div>
      
