@@ -1,0 +1,44 @@
+.Verde, .card-header, .card-footer {
+    background-color: rgb(29, 29, 29) !important;
+}
+.card-header{
+    color: #fafafa;
+}
+.btn {
+  margin: auto;
+  padding: 1rem;
+  text-transform: uppercase;
+  color: #fafafa;
+  background-color: rgb(29, 29, 29);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.4);
+  transition: 0.3s all ease;
+  letter-spacing: 0.1rem;
+  font-size: 0.85rem;
+  position: relative;
+}
+
+.btn:after,
+.btn:before {
+  position: absolute;
+  font-family: "Barrio", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: darken(green, 20%);
+  transition: 0.3s all ease;
+}
+
+.btn:hover {
+  background-color:#86bd4a;
+  box-shadow: 1px 1px 20px rgba(150, 150, 150, 0.2);
+  cursor: pointer;
+}
+
+.email{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.fa-whatsapp:before{
+  padding-right: 10px;
+}

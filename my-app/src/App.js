@@ -7,13 +7,13 @@ import DatosContacto from "./components/DatosContacto";
 function App() {
   return (
     <header>
-      <div className="App">
+      <div className='App'>
         <div>
           <NavBar />
         </div>
       </div>
       <ContenedorBody/>
-      <div class="card-footer bg-light pt-3">
+      <div className='card-footer bg-light pt-3'>
         <DatosContacto/>
         <Footer/>
       </div>

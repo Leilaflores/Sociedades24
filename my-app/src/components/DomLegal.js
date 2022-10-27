@@ -2,11 +2,11 @@ import React from "react";
 
 function DomLegal () {
     return (
-      <div id="DomLegal" class="mt-4">
-        <div class="card text-center">
-          <div class="card-header"><strong>Servicio de domicilio legal y fiscal</strong></div>
-          <div class="card-body">
-            <p class="card-text">
+      <div id="DomLegal" className='mt-4'>
+        <div className='card text-center'>
+          <div className='card-header'>SERVICIO DE DOMICILIO LEGAL y FISCAL</div>
+          <div className='card-body'>
+            <p className='card-text'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex
               dui, lacinia at orci eu, luctus aliquam dolor. Vestibulum volutpat
               turpis sed ante blandit, et gravida lectus bibendum. Nulla
@@ -16,11 +16,8 @@ function DomLegal () {
               augue at elementum rutrum. Ut vel sem at leo sodales dapibus eget
               vel libero.
             </p>
-            <a href="#" class="btn btn-primary">
-              Go somewhere
-            </a>
           </div>
-          <div class="card-footer text-muted"></div>
+          <div className='card-footer text-muted'></div>
         </div>
       </div>
     );

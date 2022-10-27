@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./Carousel";
 import DomLegal from "./DomLegal";
-import Formulario from "./Formulario";
+import DatosContacto from "./DatosContacto";
 import Gestion from "./Gestion";
 import Sa from "./Sa";
 import Sas from "./Sas";
@@ -9,37 +9,37 @@ import Srl from "./Srl";
 
 function ContenedorBody () {
     return (
-      <div>
+      <div clasNames='body'>
         <Carousel />
-        <div class="container">
-          <div class="row">
-            <div clas="col-2">
+        <div className='container'>
+          <div className='row'>
+            <div clas='col-2'>
               <Sa />
             </div>
           </div>
-          <div class="row">
-            <div clas="col-12">
+          <div className='row'>
+            <div clasName='col-12'>
               <Sas />
             </div>
           </div>
-          <div class="row">
-            <div clas="col-12">
+          <div className='row'>
+            <div clasName='col-12'>
               <Srl />
             </div>
           </div>
-          <div class="row">
-            <div clas="col-12">
+          <div className='row'>
+            <div clasName='col-12'>
               <DomLegal />
             </div>
           </div>
-          <div class="row">
-            <div clas="col-12">
+          <div className='row'>
+            <div clasName='col-12'>
               <Gestion />
             </div>
           </div>
-          <div class="row">
-            <div clas="col-12">
-              <Formulario />
+          <div className='row'>
+            <div clas='col-12'>
+              <DatosContacto />
             </div>
           </div>
         </div>
