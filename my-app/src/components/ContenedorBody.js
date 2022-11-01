@@ -9,36 +9,36 @@ import Srl from "./Srl";
 
 function ContenedorBody () {
     return (
-      <div clasNames='body'>
+      <div className='body'>
         <Carousel />
         <div className='container'>
           <div className='row'>
-            <div clas='col-2'>
+            <div className='col-12'>
               <Sa />
             </div>
           </div>
           <div className='row'>
-            <div clasName='col-12'>
+            <div className='col-12'>
               <Sas />
             </div>
           </div>
           <div className='row'>
-            <div clasName='col-12'>
+            <div className='col-12'>
               <Srl />
             </div>
           </div>
           <div className='row'>
-            <div clasName='col-12'>
+            <div className='col-12'>
               <DomLegal />
             </div>
           </div>
           <div className='row'>
-            <div clasName='col-12'>
+            <div className='col-12'>
               <Gestion />
             </div>
           </div>
           <div className='row'>
-            <div clas='col-12'>
+            <div className='col-12'>
               <DatosContacto />
             </div>
           </div>

@@ -11,11 +11,11 @@ function Carousel () {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" className='active' aria-label="Slide 2"></button>
   </div>
   <div className='carousel-inner' style={{height:"400px"}}> 
-    <div className='carousel-item active' data-bs-interval="10000">
-      <img src={banner4} className='w-100' alt="..."></img>
+    <div className='carousel-item active carousel-img-cont' data-bs-interval="10000">
+      <img src={banner4} alt="..."></img>
     </div>
-    <div className='carousel-item' data-bs-interval="2000">
-      <img src={sociedadComercial} className='w-100' alt="..."></img>
+    <div className='carousel-item carousel-img-cont' data-bs-interval="2000">
+      <img src={sociedadComercial} alt="..."></img>
     </div>
   </div>
   <button className='carousel-control-prev p-0' type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">

@@ -19,7 +19,12 @@ function  DatosContacto () {
                   </div>
                   <div>
                   <a href="https://wa.me/541166561000" target="_BLANK">
-                    <i className='fab fa-whatsapp text-black'>+54 9 11 6656-1000</i>
+                    <i className='fab fa-whatsapp text-black'></i>+54 9 11 6656-1000
+                  </a>
+                  </div>
+                  <div>
+                  <a href="tel:+5491166561000" target="_BLANK">
+                    <i className="fa-solid fa-mobile-screen-button text-black "></i>+54 9 11 6656-1000
                   </a>
                   </div>
                 </div>
